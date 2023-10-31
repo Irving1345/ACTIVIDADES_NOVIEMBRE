@@ -31,7 +31,7 @@ function imprimirFibonacciSeries() {
   const fibonacciSeries = getFibonacciSeries(num);
 
 
-  alert('Serie de Fibonacci hasta ' + num + ' números:\n' + fibonacciSeries.join(', '));
+  alert('Serie de Fibonacci hasta el ' + num + ' número es:\n' + fibonacciSeries.join(', '));
 }
 
 imprimirFibonacciSeries();
